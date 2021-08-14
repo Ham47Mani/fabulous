@@ -1,0 +1,59 @@
+//======================================= Start Header ============================
+//--> Top Bar
+.topbar {
+    background-color: #291c25;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 5px solid var(--main-Color);
+    ul { 
+        list-style: none; margin: 0; padding: 0; float: left;
+        li {
+            display: inline-block; padding: 0 8px; color: #c4c4c4; cursor: pointer;
+            &:not(:last-child) { border-right: 1px solid #c4c4c4 }
+            &:hover { color: var(--main-Color) }
+        }
+    }
+    form { 
+        float: right; position: relative;
+        input { border-radius: 20px; border: none; padding: 4px 10px }
+        button {
+            border-radius: 50%;
+            position: absolute;
+            top: 0;
+            right: 2px;
+            color: #FFF;
+            background-color: #291c25
+        }
+    }
+}
+
+//--> Logo
+.logo { 
+    padding-top: 70px; padding-bottom: 70px;
+    .text { 
+        width: 50%; margin-right: 5%; float: left;
+        h1 { 
+            color: #525f6b; font-size: 50px; margin: 0;
+            span { font-size: 65px }
+        }
+        p { margin: 0; color: #999 }
+    }
+    .img { float: right; width: 40%; margin-top: 15px }
+}
+
+//--> Navbar
+nav { 
+    padding-bottom: 70px;
+    ul { 
+        list-style: none; margin: 0; padding: 0; background-color: #f6f6f6; color: #666;
+        li {
+            display: inline-block;
+            padding: 20px 15px;
+            margin-right: 5px;
+            cursor: pointer;
+            @include prefixAll(transition, all .5s ease-in-out);
+            &:hover { background-color: var(--main-Color); color: #FFF }
+        }
+    }
+}
+//======================================= End Header ============================

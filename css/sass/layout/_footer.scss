@@ -1,0 +1,71 @@
+//======================================= Start Footer ============================
+.contactus { 
+    padding-top: 70px;
+    padding-bottom: 20px;
+    background-color: #1a1b1d;
+    border-top: 5px solid var(--main-Color);
+    color: #999;
+    .container > div:not(.clearFix) {
+        float: left;
+        width: 23%;
+        margin-right: 2%
+    }
+    h3 { color: #FFF }
+    ul {
+        list-style: none; margin: 0; padding: 0;
+        li { 
+            padding-bottom: 5px;
+            margin-bottom: 5px;
+            cursor: pointer;
+            @include prefixAll(transition, all .5s ease-in-out);
+            &:hover { color: #FFF; border-bottom: 1px solid var(--main-Color) }
+        }
+    }
+    //--> Links
+    .links {
+        ul li { 
+            border-bottom: 1px solid #666;
+            &:hover { border-bottom: 1px solid var(--main-Color) }
+        }
+    }
+    //--> Blogs
+    .blogs {
+        h4 { font-weight: bold ; margin: 0 }
+        p { margin: 0; padding: 5px 0 }
+        span { margin-top: 10px; float: right; color: var(--main-Color); font-size: 18px; cursor: pointer }
+    }
+    //--> Newslatter
+    .newsletter {
+        h3 { margin-bottom: 5px }
+        input {
+            padding: 8px;
+            background-color: #f5f4f2;
+            font-size: 18px;
+            margin: 8px 0;
+            color: #FFF;
+            border-radius: 10px;
+            width: 100%
+        }
+        button {
+            padding: 8px 20px;
+            background-color: #f5f4f2;
+            font-size: 18px;
+            color: #FFF;
+            border-radius: 10px;
+            background-color: var(--main-Color);
+            border: none;
+            @include prefixAll(transition, all .5s ease-in-out);
+            &:hover { color: var(--main-Color); background-color: #EEE }
+        }
+    }
+    //--> Footer
+    footer { 
+        margin-top: 40px;
+        margin-bottom: 20px;
+        padding-top: 20px;
+        border-top: 2px solid #373432;
+        span { display: inline-block; float: left }
+        .templateby { float: right }
+    }
+}
+//======================================= End Footer ============================

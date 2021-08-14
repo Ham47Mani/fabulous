@@ -1,0 +1,304 @@
+/*
+* Template Name      : Fabulous
+ * Template Version   : V 1.0.0
+ * Template Url       : .....................
+ * Language           : HTML5 | CSS3 |JavaScript
+ * Framework          : jQuery [JavaScript]
+ * Preprocesseur      : SaSS [CSS]
+ * Contact Me : Skaype   :- Boudraa.Hammani
+ *				Facebook :- Ham mani
+ *				Email    :- Ham47mani@gmail.com
+*/
+.clearFix {
+  clear: both;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: "Times New Roman";
+}
+
+body {
+  --main-Color: #AA5500;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 85%;
+  margin: auto;
+}
+
+.topbar {
+  background-color: #291c25;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 5px solid var(--main-Color);
+}
+.topbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+.topbar ul li {
+  display: inline-block;
+  padding: 0 8px;
+  color: #c4c4c4;
+  cursor: pointer;
+}
+.topbar ul li:not(:last-child) {
+  border-right: 1px solid #c4c4c4;
+}
+.topbar ul li:hover {
+  color: var(--main-Color);
+}
+.topbar form {
+  float: right;
+  position: relative;
+}
+.topbar form input {
+  border-radius: 20px;
+  border: none;
+  padding: 4px 10px;
+}
+.topbar form button {
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  right: 2px;
+  color: #FFF;
+  background-color: #291c25;
+}
+
+.logo {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.logo .text {
+  width: 50%;
+  margin-right: 5%;
+  float: left;
+}
+.logo .text h1 {
+  color: #525f6b;
+  font-size: 50px;
+  margin: 0;
+}
+.logo .text h1 span {
+  font-size: 65px;
+}
+.logo .text p {
+  margin: 0;
+  color: #999;
+}
+.logo .img {
+  float: right;
+  width: 40%;
+  margin-top: 15px;
+}
+
+nav {
+  padding-bottom: 70px;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color: #f6f6f6;
+  color: #666;
+}
+nav ul li {
+  display: inline-block;
+  padding: 20px 15px;
+  margin-right: 5px;
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+nav ul li:hover {
+  background-color: var(--main-Color);
+  color: #FFF;
+}
+
+.box_skitter_large {
+  width: 100%;
+  height: 500px;
+}
+.box_skitter_large a img {
+  width: 100%;
+}
+.box_skitter_large.box_skitter .label_skitter h3 {
+  color: var(--main-Color);
+  padding: 10px;
+  margin: 0;
+  font: normal 35px arial, tahoma;
+  letter-spacing: -1px;
+}
+.box_skitter_large.box_skitter .label_skitter p {
+  font-size: 14px;
+  letter-spacing: inherit;
+  margin-bottom: 25px;
+}
+
+.skitter-clean .info_slide_dots {
+  top: 0;
+  margin-top: 15px;
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+  bottom: auto;
+}
+.skitter-clean .info_slide_dots .image_number_select {
+  background-color: var(--main-Color);
+}
+.skitter-clean .info_slide_dots .image_number_select:hover {
+  background-color: var(--main-Color);
+}
+
+.services {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.services .content {
+  width: 50%;
+  float: left;
+  margin-right: 2%;
+}
+.services .content h2 {
+  font-size: 45px;
+  color: #535f6b;
+  margin: 0;
+}
+.services .content p {
+  line-height: 1.7;
+  color: #535f6b;
+}
+.services .img {
+  width: 47%;
+  float: left;
+}
+.services .img > div {
+  width: 50%;
+  float: left;
+}
+.services .img > div img {
+  padding-bottom: 20px;
+}
+.services .img > div img:hover {
+  border-bottom: 8px solid var(--main-Color);
+}
+.services .img .img2 span {
+  display: block;
+  margin: 20px 0 0 45px;
+  color: var(--main-Color);
+  cursor: pointer;
+}
+
+.contactus {
+  padding-top: 70px;
+  padding-bottom: 20px;
+  background-color: #1a1b1d;
+  border-top: 5px solid var(--main-Color);
+  color: #999;
+}
+.contactus .container > div:not(.clearFix) {
+  float: left;
+  width: 23%;
+  margin-right: 2%;
+}
+.contactus h3 {
+  color: #FFF;
+}
+.contactus ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.contactus ul li {
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.contactus ul li:hover {
+  color: #FFF;
+  border-bottom: 1px solid var(--main-Color);
+}
+.contactus .links ul li {
+  border-bottom: 1px solid #666;
+}
+.contactus .links ul li:hover {
+  border-bottom: 1px solid var(--main-Color);
+}
+.contactus .blogs h4 {
+  font-weight: bold;
+  margin: 0;
+}
+.contactus .blogs p {
+  margin: 0;
+  padding: 5px 0;
+}
+.contactus .blogs span {
+  margin-top: 10px;
+  float: right;
+  color: var(--main-Color);
+  font-size: 18px;
+  cursor: pointer;
+}
+.contactus .newsletter h3 {
+  margin-bottom: 5px;
+}
+.contactus .newsletter input {
+  padding: 8px;
+  background-color: #f5f4f2;
+  font-size: 18px;
+  margin: 8px 0;
+  color: #FFF;
+  border-radius: 10px;
+  width: 100%;
+}
+.contactus .newsletter button {
+  padding: 8px 20px;
+  background-color: #f5f4f2;
+  font-size: 18px;
+  color: #FFF;
+  border-radius: 10px;
+  background-color: var(--main-Color);
+  border: none;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.contactus .newsletter button:hover {
+  color: var(--main-Color);
+  background-color: #EEE;
+}
+.contactus footer {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  border-top: 2px solid #373432;
+}
+.contactus footer span {
+  display: inline-block;
+  float: left;
+}
+.contactus footer .templateby {
+  float: right;
+}
+
+/*# sourceMappingURL=style.css.map */
